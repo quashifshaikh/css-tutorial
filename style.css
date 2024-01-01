@@ -53,9 +53,60 @@ h4 {
 }
 
 #outer {
-    font-size: 25px;
+    background-color: yellow;
+    height: 50px;
+    width: 20%;
+    text-align: center;
+    border: 2px dashed brown;
+    margin: 10px;
 }
 
 #inner {
-    font-size: 10px;
+    background-color: yellowgreen;
+}
+#aside {
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    border: 2px dotted burlywood;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.traffic-light {
+    background-color: black;
+    height: 400px;
+    width: 135px;
+    
+}
+
+.red {
+    background-color: red;
+    height:100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+}
+.green {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.Orange {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
 }
