@@ -1,11 +1,61 @@
+* {
+    background-color: aliceblue;
+}
 #box {
-    background-color: blue;
+    background-color: thistle;
     color: aliceblue;
 }
 
 .heading {
-    color: red;
+    color: tomato;
+    text-align: center;
 }
 button {
-    background-color: green;
+    background-color: chocolate;
+}
+
+h1 {
+    text-decoration: underline black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+h2 {
+    text-decoration: underline dotted royalblue;
+    font-weight: lighter;
+}
+
+h3 {
+    text-decoration: underline dashed darkblue;
+    font-weight: normal;
+}
+
+h4 {
+    text-decoration: underline double blueviolet;
+    font-weight: inherit;
+}
+
+.first {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.second {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.third {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
 }
